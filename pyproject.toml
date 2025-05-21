@@ -1,0 +1,22 @@
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+select = [
+    "E",    # pycodestyle errors
+    "F",    # pyflakes
+    "W",    # pycodestyle warnings
+    "I",    # isort
+    "N",    # pep8-naming
+    "UP",   # pyupgrade
+    "B",    # flake8-bugbear
+]
+ignore = []
+
+[tool.ruff.isort]
+known-first-party = []
+known-third-party = [] 
