@@ -13,23 +13,10 @@ pip install -r requirements.txt
 ## Структура проекта
 
 - `main.py` - пример файла с кодом, который содержит стилистические ошибки
-- `test_linters.py` - тесты для проверки работы линтеров ruff и black
 - `pyproject.toml` - файл конфигурации для линтеров
 - `requirements.txt` - файл с зависимостями
 
 ## Запуск тестов
-
-Для запуска тестов выполните:
-
-```bash
-python test_linters.py
-```
-
-или с помощью pytest:
-
-```bash
-pytest test_linters.py -v
-```
 
 ## Запуск линтеров вручную
 
